@@ -1,0 +1,14 @@
+.logo-container {
+    max-width: 150px;
+  }
+.logo-container {
+    display: block; /* make sure logo is initially displayed */
+  }
+  
+@media (max-width: 768px) { /* adjust breakpoint to your needs */
+ .logo-container {
+      display: none; /* hide logo on small screens */
+    }
+  }
+  
+  

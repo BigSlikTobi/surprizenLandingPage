@@ -1,0 +1,36 @@
+.hero-section {
+    background-image: url('./assets/baloons.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+ 
+  }
+  
+  .hero-container {
+    background-image: url("./assets/baloons.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .hero-text-container {
+    background-color: rgb(44, 48, 85);
+    box-shadow: 0px 0px 20px 0px rgba(75, 66, 130, 0.5);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    max-width: none;
+    position: relative;
+    text-align: center;
+  }
+  
