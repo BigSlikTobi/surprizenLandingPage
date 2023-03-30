@@ -6,20 +6,42 @@ import './Hero.css';
 const Hero = () => {
   return (
     <section class="hero-section"> 
-    <div className="hero-section" style={{ backgroundColor: '#9d70b5', paddingTop: '80px' }}>
-      <Container>
+    <div className="hero-section">
+
+    
+
+      <Container className='hero-text-container'>
+      <h1 className="hero-text-header">
+      Personalized Surprises for Every Occasion
+    </h1>
         <Row>
+        <Col lg={6} className="d-flex align-items-left justify-content-center flex-column">
+          <section class="hero-text-container" >
+          
+            <ul className="text-black mb-5" style={{ listStyle: 'none', paddingLeft: 0, }}>
+              <li className="mb-3">
+                <span className="bullet-point mr-3">&#8226;</span>
+                Personalized surprises based on interests
+              </li>
+              <li className="mb-3">
+                <span className="bullet-point mr-3">&#8226;</span>
+                Unforgettable experiences for any occasion
+              </li>
+              <li className="mb-3">
+                <span className="bullet-point mr-3">&#8226;</span>
+                Express love and gratitude in a unique way
+              </li>
+            </ul>
+        </section>
+
+          </Col>
+         
           <Col lg={6} className="d-flex align-items-center justify-content-center flex-column">
-            <img src={logo} alt="Surprizen Logo" style={{ height: '250px', marginBottom: '50px' }} />
-            <Button variant="light" class="btn btn-primary btn-lg" href="#pricing" style={{ marginBottom: '25px'}}>Let's Start</Button>
+          <Button variant="outline-primary" style={{ padding: '20px 40px', fontSize: '24px' }} className="custom-button">Start your journey</Button>
+            {/*<img src={logo} alt="Surprizen Logo" style={{ height: '250px', marginBottom: '50px' }} />
+            <Button variant="light" class="btn btn-primary btn-lg" href="#pricing" style={{ marginBottom: '25px'}}>Let's Start</Button>*/}
           </Col>
           
-          <Col lg={6} className="d-flex align-items-center justify-content-center flex-column">
-          <section class="hero-text-container">
-            <h1 className="text-white mb-4">Personalized Surprises for Every Occasion</h1>
-            <p className="text-white mb-5">At Surprizen, we believe that every surprise should be unique and memorable. We aim to revolutionize the way people give gifts by offering personalized surprises based on the recipient's personality, interests, and preferences. Our goal is to create unforgettable experiences that bring joy and happiness to both the giver and the receiver. With our innovative approach, we strive to make every occasion special and meaningful, whether it's a birthday, anniversary, or just a simple gesture of appreciation. Surprizen is more than just a gifting platform; it's a way to express love and gratitude in a way that truly resonates with the person you care about.</p>
-            </section>
-          </Col>
          
         </Row>
       </Container>

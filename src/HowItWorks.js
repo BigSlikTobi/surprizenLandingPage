@@ -45,9 +45,6 @@ const HowItWorks = () => {
     </div>
   </div>
   </section>
-  <div className="text-center mt-4">
-    <button className="btn btn-primary btn-lg">Surprise Someone Now</button>
-  </div>
 </section>
   );
 };

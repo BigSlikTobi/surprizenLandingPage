@@ -5,15 +5,19 @@ import HowItWorks from './HowItWorks';
 import Action from './Action';
 import Contact from './Contact';
 import SurprizenBox from './SurprizenBox';
+import backgroundImage from './assets/heroNew.jpg';
 
 
 function App() {
   return (
     <div>
       <Header />
-      <Hero />
-      <HowItWorks />
-      <SurprizenBox />
+      <div style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <Hero />
+        <HowItWorks />
+        <SurprizenBox />
+      </div>   
+    
       <Action />
       <Contact />
         </div>

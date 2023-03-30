@@ -1,14 +1,14 @@
 .hero-section {
-    background-image: url('./assets/baloons.jpg');
+    
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.5);
+
  
   }
   
   .hero-container {
-    background-image: url("./assets/baloons.jpg");
+   
     background-size: cover;
     background-position: center;
     padding-top: 100px;
@@ -16,21 +16,49 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     position: relative;
   }
   
   .hero-text-container {
-    background-color: rgb(44, 48, 85);
-    box-shadow: 0px 0px 20px 0px rgba(75, 66, 130, 0.5);
-    border-radius: 20px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+
+    padding-bottom: 30px;
     padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width: none;
     position: relative;
-    text-align: center;
+    text-align: left;
+    font-size: x-large;
+  }
+
+  h1 {
+    text-align: left;
+  }
+  ul {
+    text-align: left;
+  }
+  .hero-text-header {
+    padding-top: 30px;
+    max-width: none;
+    position: relative;
+    text-align: left;
+    font-size: xx-large; 
+  }
+
+  .custom-button {
+    background-color: #a492c7;
+    border: none;
+    color: #2e206d;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
   }
   
+  .custom-button:hover {
+    background-color: #8f6cb3;
+    border: 2px solid #ff0066;
+    color: #ff0066;
+  }

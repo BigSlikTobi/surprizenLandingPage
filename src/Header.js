@@ -6,7 +6,7 @@ import logo from './assets/logo.png';
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg" className='px-3'>
+    <Navbar bg="light" expand="lg" className='px-3 justify-content-between'>
         <Container className='container-fluid logo-container'>
             <Navbar.Brand href="#home">
             <img 
